@@ -4,8 +4,8 @@ namespace Database\Factories;
 
 use App\Models\Brand;
 use App\Models\Category;
-use Illuminate\Support\Str;
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Support\Str;
 
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Product>
@@ -36,8 +36,6 @@ class ProductFactory extends Factory
 
     /**
      * Indicate that the product is active.
-     *
-     * @return \Database\Factories\ProductFactory
      */
     public function active(): ProductFactory
     {
@@ -50,8 +48,6 @@ class ProductFactory extends Factory
 
     /**
      * Indicate that the product is inactive.
-     *
-     * @return \Database\Factories\ProductFactory
      */
     public function inactive(): ProductFactory
     {

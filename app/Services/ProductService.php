@@ -3,15 +3,15 @@
 namespace App\Services;
 
 use App\Models\Product;
-use Illuminate\Support\Str;
 use Illuminate\Http\Request;
+use Illuminate\Support\Str;
 
 class ProductService
 {
     public function saveProduct(Request $request, ?Product $product = null)
     {
         if (is_null($product)) {
-            $product = new Product();
+            $product = new Product;
         }
 
         $product->name = $request->name;

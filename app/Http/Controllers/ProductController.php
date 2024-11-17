@@ -2,13 +2,12 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Brand;
-use App\Models\Product;
-use App\Models\Category;
-use App\Services\ProductService;
-use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Gate;
 use App\Http\Requests\StoreProductRequest;
+use App\Models\Brand;
+use App\Models\Category;
+use App\Models\Product;
+use App\Services\ProductService;
+use Illuminate\Support\Facades\Gate;
 
 class ProductController extends Controller
 {

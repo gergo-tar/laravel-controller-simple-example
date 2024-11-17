@@ -18,7 +18,7 @@ class UserSeeder extends Seeder
             'email' => 'john.doe@mail.com',
         ];
         // Check if user already exists
-        if (!User::where('email', $example['email'])->exists()) {
+        if (! User::where('email', $example['email'])->exists()) {
             User::factory()->create([
                 'name' => $example['name'],
                 'email' => $example['email'],
@@ -31,7 +31,7 @@ class UserSeeder extends Seeder
             'email' => 'admin@example.com',
         ];
         // Check if admin already exists
-        if (!User::where('email', $admin['email'])->exists()) {
+        if (! User::where('email', $admin['email'])->exists()) {
             User::factory()->create([
                 'name' => $admin['name'],
                 'email' => $admin['email'],

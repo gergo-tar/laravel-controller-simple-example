@@ -48,8 +48,6 @@ class User extends Authenticatable
 
     /**
      * Determine if the user is an admin.
-     *
-     * @return bool
      */
     public function isAdmin(): bool
     {
