@@ -1,4 +1,4 @@
-<p align="center"><a href="https://gergotar.comhttps://gergotar.com" target="_blank"><img src="https://gergotar.com/img/logo.png" width="40" alt="Gergő Tar Logo"></a></p>
+<p align="center"><a href="https://gergotar.com" target="_blank"><img src="https://gergotar.com/img/logo.png" width="40" alt="Gergő Tar Logo"></a></p>
 
 ## About the Project
 
